@@ -6,7 +6,7 @@ CC=g++
 CCFLAGS=-Wall -std=c++11 -O3 -ffast-math
 EXEFLAGS=-xHost
 OBJFLAGS=-c
-LDLIBS=-lallegro -lallegro_primitives -lallegro_font -lallegro_ttf -fopenmp
+LDLIBS=-lallegro -lallegro_main -lallegro_primitives -lallegro_font -lallegro_ttf -fopenmp
 EXE=nbody_simulator
 
 $(VERBOSE).SILENT:
