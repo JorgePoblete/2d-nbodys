@@ -23,5 +23,5 @@ $(EXE): $(OBJ)
 clean:
 	rm -f $(SRC_FOLDER)*.o $(EXE)	
 
-run:
+run: all
 	./$(EXE) -n 10000 -steps 2000 -dt 0.1f < inputs/in1 
